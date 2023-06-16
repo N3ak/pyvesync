@@ -73,10 +73,10 @@ air_features: dict = {
     },
     'Core400S': {
         'module': 'VeSyncAirBypass',
-        'models': ["""'Core400S',"""
-                   """'LAP-C401S-WJP',"""
+        'models': ['Core400S',
+                   'LAP-C401S-WJP',
                    'LAP-C401S-WUSR',
-                   """'LAP-C401S-WAAA'"""],
+                   'LAP-C401S-WAAA'],
         'modes': ['sleep', 'off', 'auto', 'manual'],
         'features': ['air_quality'],
         'levels': list(range(1, 5))
